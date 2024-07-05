@@ -24,3 +24,17 @@ section {
     scroll-snap-align: center;
 }
 
+
+
+.course{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: #fff;
+    }
+}
