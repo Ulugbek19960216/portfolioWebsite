@@ -8,11 +8,13 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@vitejs/plugin-react": "^4.3.1",
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "framer-motion": "^10.16.4",
+    "mixin": "^0.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sass": "^1.68.0",

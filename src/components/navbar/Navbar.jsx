@@ -15,10 +15,10 @@ const Navbar = () => {
 
             >Leo React Developer</motion.span>
             <div className="social">
-                <a href="#"><img src="/facebook.png"></img></a>
-                <a href="#"><img src="/instagram.png"></img></a>
-                <a href="#"><img src="/youtube.png"></img></a>
-                <a href="#"><img src="/dribbble.png"></img></a>
+                <a href="https://github.com/Ulugbek19960216"><img src="/Github.png"></img></a>
+                <a href="https://leetcode.com/u/Ulugbek_Leo/"><img src="/leetcode.png"></img></a>
+                <a href="https://www.linkedin.com/in/leo-sherov-346589215/"><img src="/linkedin.png"></img></a>
+             
             </div>
         </div>
     
