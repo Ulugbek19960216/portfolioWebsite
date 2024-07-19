@@ -1,0 +1,110 @@
+@import "../../app.scss";
+
+.education {
+  height: 100vh; 
+  padding: 10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .wrapper {
+    height: 100%;
+    max-width: 1366px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+
+    .title-con {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      gap: 100px; 
+
+      img {
+        width: 100%;
+        max-width: 600px; 
+        height: auto; 
+      }
+
+      .title {
+        h1 {
+          font-size: 3.5rem; 
+          font-weight: 400;
+          margin-bottom: 16px; 
+        }
+
+        h3 {
+          font-size: 1.8rem;
+          font-weight: normal; 
+          margin-bottom: 16px;
+        }
+      }
+
+      .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px; 
+        
+        a {
+          display: inline-block; 
+        }
+        
+        img {
+          width: 35px; 
+          border-radius: 50%;
+          height: 35px;
+        }
+      }
+    }
+
+    .degreeTitle {
+        font-size: 45px;
+        font-weight: 500;
+    }
+    .degrees {
+      width: 100%; 
+      max-width: 1120px;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px; 
+
+      .degree-item {
+        height: 220px;
+        width: 100%;
+        background: rgb(52, 51, 51); 
+        border-radius: 8px;
+        color: #d8d3d3;
+        padding:  20px 40px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        img {
+          width: 200px;
+          height: 180px;
+          max-width: 200px; 
+        }
+
+        h1 {
+          font-size: 28px; 
+          font-family: sans-serif;
+          font-weight: 500;
+          margin-bottom: 5px;
+        }
+
+        h3 {
+          font-size: 22px;
+          font-weight: normal;
+          font-style: italic;
+        }
+
+      }
+    }
+ 
+  }
+}
