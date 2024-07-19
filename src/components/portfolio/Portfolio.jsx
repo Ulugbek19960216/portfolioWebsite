@@ -24,13 +24,6 @@ const items = [
     desc: "NoteKeeper is a simple and efficient note-taking application built with React. It allows users to write titles, take notes, and easily add or delete them. The clean and intuitive interface ensures a seamless user experience.",
     link: "https://ulugbek19960216.github.io/Note_Keeper/",
   },
-  {
-    id: 4,
-    title: "Music App",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    link: "https://beck0797.github.io/scheduler_page/",
-  },
 ];
 
 const Single = ({ item }) => {
