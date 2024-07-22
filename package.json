@@ -2,7 +2,7 @@
   "name": "portfolioWebsite",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Ulugbek19960216.github.io/PortfolioWebsite",
+  "homepage": "https://Ulugbek19960216.github.io/portfolioWebsite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
