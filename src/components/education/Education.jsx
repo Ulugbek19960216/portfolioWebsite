@@ -5,13 +5,13 @@ const items = [
     id: 1,
     title: "Northeastern University London",
     major: "Master of Computer Science(Grade: 77% Distinction)",
-    img: "/Northeastern.png",
+    img: "./Northeastern.png",
   },
   {
     id: 2,
     title: "Gachon University",
     major: "Bachelor of Computer Science(Grade: 89.30% Distinction)",
-    img: "/Gachon.png",
+    img: "./Gachon.png",
   },
 ];
 
@@ -21,20 +21,20 @@ const Education = () => {
       <div className="wrapper">
         <div className="title-con">
           <div className="image">
-            <img src="/Education.svg" alt="education image" />
+            <img src="./Education.svg" alt="education image" />
           </div>
           <div className="title">
             <h1>Education</h1>
             <h3>Basic Qualification and Certifications</h3>
             <div className="social">
               <a href="https://github.com/Ulugbek19960216">
-                <img src="/Github.png" alt="Github" />
+                <img src="./Github.png" alt="Github" />
               </a>
               <a href="https://leetcode.com/u/Ulugbek_Leo/">
-                <img src="/leetcode.png" alt="LeetCode" />
+                <img src="./leetcode.png" alt="LeetCode" />
               </a>
               <a href="https://www.linkedin.com/in/leo-sherov-346589215/">
-                <img src="/linkedin.png" alt="LinkedIn" />
+                <img src="./linkedin.png" alt="LinkedIn" />
               </a>
             </div>
           </div>

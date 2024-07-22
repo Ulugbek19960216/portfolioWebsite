@@ -40,7 +40,7 @@ const Skills = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="Team Collaboration" />
+          <img src="./people.webp" alt="Team Collaboration" />
           <h1>
             <motion.b whileInView={{ color: "orange" }}>Crafting</motion.b> Dynamic User Experiences
           </h1>
