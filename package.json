@@ -2,10 +2,13 @@
   "name": "portfolioWebsite",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://Ulugbek19960216.github.io/PortfolioWebsite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
@@ -22,6 +25,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^3.0.0",
+    "gh-pages": "^6.1.1",
     "vite": "^4.0.0"
   },
   "repository": {
@@ -34,6 +38,5 @@
   "bugs": {
     "url": "https://github.com/Ulugbek19960216/portfolioWebsite/issues"
   },
-  "homepage": "https://github.com/Ulugbek19960216/portfolioWebsite#readme",
   "description": ""
 }
