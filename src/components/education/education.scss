@@ -21,24 +21,45 @@
       text-align: center;
       gap: 100px; 
 
+
+      @include mobile {
+        flex-direction: column;
+        gap: 0px;
+      
+      }
+
       img {
         width: 100%;
-        max-width: 600px; 
+        max-width: 480px; 
         height: auto; 
+
+        @include mobile {
+         display: none;
+        }
       }
+
 
       .title {
         h1 {
           font-size: 3.5rem; 
           font-weight: 400;
           margin-bottom: 16px; 
+
+          @include mobile {
+            font-size: 50px;
+          }
         }
 
         h3 {
           font-size: 1.8rem;
           font-weight: normal; 
           margin-bottom: 16px;
+          
+          @include mobile {
+            display: none;
+          }
         }
+
       }
 
       .social {
@@ -55,6 +76,10 @@
           width: 35px; 
           border-radius: 50%;
           height: 35px;
+
+          @include mobile {
+           display: none;
+          }
         }
       }
     }
@@ -62,6 +87,11 @@
     .degreeTitle {
         font-size: 45px;
         font-weight: 500;
+
+        @include mobile {
+          font-size: 35px;
+          margin: 10px 0px;
+        }
     }
     .degrees {
       width: 100%; 
@@ -72,6 +102,11 @@
       align-items: center;
       gap: 30px; 
 
+      @include mobile {
+        margin-top: 15px;
+        gap: 20px;
+
+      }
       .degree-item {
         height: 220px;
         width: 100%;
@@ -84,10 +119,23 @@
         align-items: center;
         gap: 50px;
 
+        @include mobile {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding:  0px 0px;
+          height: 250px;
+          gap: 10px;
+        }
+
         img {
-          width: 200px;
-          height: 180px;
-          max-width: 200px; 
+          width: 180px;
+          height: 160px;
+          max-width: 180px; 
+          @include mobile {
+            width: 150px;
+            height: 150px;
+          }
         }
 
         h1 {
@@ -95,12 +143,19 @@
           font-family: sans-serif;
           font-weight: 500;
           margin-bottom: 5px;
+
+          @include mobile {
+            font-size: 18px;
+          }
         }
 
         h3 {
           font-size: 22px;
           font-weight: normal;
           font-style: italic;
+          @include mobile {
+            font-size: 15px;
+          }
         }
 
       }
